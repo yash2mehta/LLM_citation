@@ -1,6 +1,6 @@
 from llama_index.core import ServiceContext
 from llama_index.core import VectorStoreIndex, SimpleKeywordTableIndex, RAKEKeywordTableIndex#, KeywordTableIndex
-from llama_index.llms import OpenAI
+from llama_index.llms.openai import OpenAI
 from llama_index.embeddings import OpenAIEmbedding
 import os
 
