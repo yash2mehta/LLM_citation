@@ -1,7 +1,7 @@
 from llama_index.core import ServiceContext
 from llama_index.core import VectorStoreIndex, SimpleKeywordTableIndex, RAKEKeywordTableIndex#, KeywordTableIndex
 from llama_index.llms.openai import OpenAI
-from llama_index.embeddings import OpenAIEmbedding
+from llama_index.embeddings.openai import OpenAIEmbedding
 import os
 
 def set_service_context(key=None):
