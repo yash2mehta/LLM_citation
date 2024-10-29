@@ -1,5 +1,5 @@
 import pandas as pd
-from llama_index import StorageContext, load_index_from_storage
+from llama_index.core import StorageContext, load_index_from_storage
 from llamaindex_utils import set_service_context
 import matplotlib.pyplot as plt
 import numpy as np
